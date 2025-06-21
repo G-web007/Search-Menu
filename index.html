@@ -12,20 +12,34 @@
     <link href="output.css" rel="stylesheet">
 </head>
 <body>
-    <input type="text" id="searchId" placeholder="Searh..." title="Type in a category">
 
-    <ul id="menu bg-gray-500">
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">JavaScript</a></li>
-        <li><a href="#">PHP</a></li>
-        <li><a href="#">Python</a></li>
-        <li><a href="#">Jquery</a></li>
-        <li><a href="#">SQL</a></li>
-        <li><a href="#">Bootstrap</a></li>
-        <li><a href="#">Node.js</a></li>
-    </ul>
+    <div class="flex flex-rows w-9/12 mx-auto mt-10 rounded border border-gray-300 shadow-2xl">
+        <div class="w-2/5 bg-gray-300 p-10">
+            <h1>Menu</h1>
 
+            <input type="text" id="searchId" placeholder="Searh..." title="Type in a category">
+
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">Jquery</a></li>
+                <li><a href="#">SQL</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Node.js</a></li>
+            </ul>
+        </div>
+            
+        <div class="w-3/5 bg-gray-200 p-10">
+            <h2>Page Content</h2>
+            <p>Start to type for a specific category/link inside the search bar to "filter" the search options.</p><br>
+            <p>Some text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p><br>
+            <p>Some other text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+        </div>
+    </div>
+    
     <script src="main.js"></script>
 </body>
 </html>
